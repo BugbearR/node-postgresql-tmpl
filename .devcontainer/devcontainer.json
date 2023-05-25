@@ -2,7 +2,7 @@
     "name": "node-postgresql-tmpl",
     "dockerComposeFile": ["docker-compose.yml"],
     "service": "devcontainer",
-    "remoteUser": "codespace",
+    // "remoteUser": "vscode",
     "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
