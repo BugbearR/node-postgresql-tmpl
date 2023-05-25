@@ -1,0 +1,17 @@
+{
+    "name": "node-postgresql-tmpl",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "devcontainer",
+    "remoteUser": "codespace",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "dbaeumer.vscode-eslint", // ESLint
+                "firsttris.vscode-jest-runner", // Jest Runner
+                "uniquevision.vscode-plpgsql-lsp" // PostgreSQL Language Server
+            ]
+        }
+    },
+}
