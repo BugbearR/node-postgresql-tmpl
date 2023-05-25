@@ -15,6 +15,8 @@ services:
     ports:
       - 9001:5432
     volumes:
-      - type: bind
-        source: "../data"
+      - type: volume
+        source: postgres-data
         target: "/var/lib/postgresql/data"
+volumes:
+  postgres-data:

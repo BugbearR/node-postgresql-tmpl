@@ -1,0 +1,15 @@
+{
+  "name": "@bugbearr/hello-pg",
+  "version": "0.0.1",
+  "description": "Hello, world for PostgreSQL",
+  "main": "index.js",
+  "author": "BugbearR",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "pg": "^8.11.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "preinstall": "npx only-allow pnpm"
+  }
+}
